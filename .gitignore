@@ -1,0 +1,32 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# Local databases and uploaded data
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local logs
+*.log
